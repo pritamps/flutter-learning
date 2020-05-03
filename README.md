@@ -3,6 +3,13 @@
 ## Random notes
 
 * Use the **Flutter Outline** tab to wrap widget with `Center()`, and other such single-child widgets.
+* A **lot** of things can be done from the Android Studio UI: wrapping widgets with other widgets, removing a wrapping widget....and so and so far. (Option + Enter on Mac). Development goes much faster.
+* Uninitialized variables are dynamically typed in Dart! There is a `dynamic` data type!
+* Stateless vs stateful widgets. Any widgets that need to maintain a record of their state are stateful.
+  * Hot reload won't be enabled for stateful widgets. Need hot restart.
+  * `setState()` can be called from anywhere inside the widget. Any variables that are changed in the `setState()` method are marked dirty, and any code that accesses the variable are run again.
+
+
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
 * [Download the Course Syllabus](https://drive.google.com/uc?export=download&id=1itL9AXx7Z-RxFAjSLLhsTeTFZYrkfweR)
