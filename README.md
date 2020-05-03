@@ -1,5 +1,8 @@
 # Flutter-Course-Resources
 
+## Random notes
+
+* Use the **Flutter Outline** tab to wrap widget with `Center()`, and other such single-child widgets.
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
 * [Download the Course Syllabus](https://drive.google.com/uc?export=download&id=1itL9AXx7Z-RxFAjSLLhsTeTFZYrkfweR)
@@ -62,8 +65,10 @@
 ## Section 7: Dicee - Building Apps with State
 
 * [Dicee Stub Project](https://github.com/londonappbrewery/dicee-flutter)
-* [Expanded Class](https://docs.flutter.io/flutter/widgets/Expanded-class.html)
+* [Expanded Class](https://docs.flutter.io/flutter/widgets/Expanded-class.html): Children of this widget expand to fill available space.
+  * [`flex`](https://api.flutter.dev/flutter/widgets/Flex-class.html) property can be used with expanded widgets to adjust size proportionally
 * [Image Widget Documentation](https://docs.flutter.io/flutter/widgets/Image-class.html)
+  * `Image.asset('images/dice1.png')` Simple way to directly load an asset into an image
 * [FlatButton Documentation](https://docs.flutter.io/flutter/material/FlatButton-class.html)
 * [Run code snippets on DartPad](https://dartpad.dartlang.org/)
 * [Dart Math Library](https://api.dartlang.org/stable/2.2.0/dart-math/dart-math-library.html)
