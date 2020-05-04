@@ -8,6 +8,7 @@
 * Stateless vs stateful widgets. Any widgets that need to maintain a record of their state are stateful.
   * Hot reload won't be enabled for stateful widgets. Need hot restart.
   * `setState()` can be called from anywhere inside the widget. Any variables that are changed in the `setState()` method are marked dirty, and any code that accesses the variable are run again.
+* [Flutter Packages](https://pub.dev/): To install any package, click on "Installing" tab of any package. Adding a `^` means it will use the latest version as long as major version number does not change
 
 
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
