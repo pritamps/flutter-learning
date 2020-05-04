@@ -1,3 +1,6 @@
 [submodule "dicee-flutter"]
 	path = dicee-flutter
 	url = https://github.com/pritamps/dicee-flutter
+[submodule "xylophone-flutter"]
+	path = xylophone-flutter
+	url = https://github.com/pritamps/xylophone-flutter
