@@ -4,3 +4,12 @@
 [submodule "xylophone-flutter"]
 	path = xylophone-flutter
 	url = https://github.com/pritamps/xylophone-flutter
+[submodule "quizzler-flutter"]
+	path = quizzler-flutter
+	url = https://github.com/pritamps/quizzler-flutter
+[submodule "destini-challenge-starting"]
+	path = destini-challenge-starting
+	url = https://github.com/pritamps/destini-challenge-starting
+[submodule "bmi-calculator-flutter"]
+	path = bmi-calculator-flutter
+	url = https://github.com/londonappbrewery/bmi-calculator-flutter
