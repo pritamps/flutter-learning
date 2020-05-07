@@ -8,7 +8,31 @@
 * Stateless vs stateful widgets. Any widgets that need to maintain a record of their state are stateful.
   * Hot reload won't be enabled for stateful widgets. Need hot restart.
   * `setState()` can be called from anywhere inside the widget. Any variables that are changed in the `setState()` method are marked dirty, and any code that accesses the variable are run again.
+  * [When to use keys](https://www.youtube.com/watch?v=kn0EOS-ZiIc): Keys maintain state.
 * [Flutter Packages](https://pub.dev/): To install any package, click on "Installing" tab of any package. Adding a `^` means it will use the latest version as long as major version number does not change
+* [Dribbble](https://dribbble.com/) for flutter design inspiration!
+* [Using Themes](https://flutter.dev/docs/cookbook/design/themes)
+  * Accent colors, default colors, everything is customizable.
+  ```dart
+    theme: ThemeData.dark().copyWith(
+    primaryColor: Colors.red,
+    accentColor: Colors.red,
+    floatingActionButtonTheme:
+        FloatingActionButtonThemeData(backgroundColor: Colors.blue),
+    textTheme: TextTheme(
+      body1: TextStyle(color: Colors.white),
+    ),
+  ),
+  ```
+  * Notice how FloatingAction has its own theme and doesn't always take the accent color.
+  * Any widget can be wrapped with its own `ThemeData()`
+* [The Flutter Cookbook](https://flutter.dev/docs/cookbook): Common "recipes" for common flutter apps. Lots of common things are covered there!
+* [Find Color HEX codes easily with the Colorzilla plugin](http://www.colorzilla.com/)
+* [LaTeX support](https://pub.dev/packages/flutter_tex)
+* **Styling**
+  * `color` is technically a part of the `decoration` (`BoxDecoration(..)`) property
+* [Dart Language Tour: Final and Const](https://www.dartlang.org/guides/language/language-tour#final-and-const)
+
 
 
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
