@@ -32,6 +32,11 @@
 * **Styling**
   * `color` is technically a part of the `decoration` (`BoxDecoration(..)`) property
 * [Dart Language Tour: Final and Const](https://www.dartlang.org/guides/language/language-tour#final-and-const)
+* Use `copyWith`to customize indvidual widgets
+* Composition over inheritance! Composition over inheritance!
+* You can click through on widgets to get to the actual code. Very useful, because you can compose your own widgets based on stuff a few layers below.
+* [Navigation cookbook](https://flutter.dev/docs/cookbook/navigation/navigation-basics)
+  * Stack of screens
 
 
 
