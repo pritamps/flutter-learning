@@ -16,3 +16,6 @@
 [submodule "Clima-Flutter"]
 	path = Clima-Flutter
 	url = https://github.com/pritamps/Clima-Flutter
+[submodule "bitcoin-ticker-flutter"]
+	path = bitcoin-ticker-flutter
+	url = https://github.com/pritamps/bitcoin-ticker-flutter
