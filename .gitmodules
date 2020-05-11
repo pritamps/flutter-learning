@@ -13,3 +13,6 @@
 [submodule "bmi-calculator-flutter"]
 	path = bmi-calculator-flutter
 	url = https://github.com/londonappbrewery/bmi-calculator-flutter
+[submodule "Clima-Flutter"]
+	path = Clima-Flutter
+	url = https://github.com/pritamps/Clima-Flutter
