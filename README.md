@@ -37,8 +37,13 @@
 * You can click through on widgets to get to the actual code. Very useful, because you can compose your own widgets based on stuff a few layers below.
 * [Navigation cookbook](https://flutter.dev/docs/cookbook/navigation/navigation-basics)
   * Stack of screens
-
-
+* [`async` and `await` for asynchronous programming](https://dart.dev/codelabs/async-await)
+* [Geolocator Package](https://pub.dartlang.org/packages/geolocator)
+* [HTTP package](https://pub.dev/packages/http)
+* [dart:convert](https://api.dart.dev/stable/2.8.1/dart-convert/dart-convert-library.html) has libraries for converting JSON, XML, base64, etc.
+* [Loading spinners](https://pub.dev/packages/flutter_spinkit)
+* [`widget` property](https://api.flutter.dev/flutter/widgets/State/widget.html): Maintains the state of a stateful widget. Since there can be more than one `State` object associated with a `StatefulWidget` instance, this property is very useful.
+* [`Platform.iOS`] to check for iOS for example.
 
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
