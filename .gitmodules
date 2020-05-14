@@ -19,3 +19,6 @@
 [submodule "bitcoin-ticker-flutter"]
 	path = bitcoin-ticker-flutter
 	url = https://github.com/pritamps/bitcoin-ticker-flutter
+[submodule "flash-chat-flutter"]
+	path = flash-chat-flutter
+	url = https://github.com/pritamps/flash-chat-flutter
