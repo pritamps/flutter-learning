@@ -48,6 +48,9 @@
 * TODO: Read about mixins
 * `AnimationController`s can be used easily because it sets the whole state every frame.
 * `copyWith()` is quite cool!
+* TODO: Understand [`StreamBuilder()`](https://www.youtube.com/watch?v=MkKEWHfy99Y&feature=youtu.be) 
+* Don't place `ListView`s as direct children of `Row`s or `Column`s
+* `Bottomsheet`
 
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
