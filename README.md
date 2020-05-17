@@ -51,6 +51,13 @@
 * TODO: Understand [`StreamBuilder()`](https://www.youtube.com/watch?v=MkKEWHfy99Y&feature=youtu.be) 
 * Don't place `ListView`s as direct children of `Row`s or `Column`s
 * `Bottomsheet`
+* Stateful Widgets: State is passed through call backs. 
+* When you convert stateless widgets to stateful, a rebuild of the app is required.
+* `Provider` package is Google's recommendation for managing state
+* `Provider` in the `Todoey` app
+  * `TaskData` class will provide all relevant listeners with updates to task propertie.s.
+  * The `ChangeNotifier` should be at a level where all listeners are available, i.e. below in three.
+  * On updating provider data, the `notifyListeners()` method *HAS* to be called
 
 ## Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
